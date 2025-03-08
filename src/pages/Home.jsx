@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import profile from "../assets/profile2.jpeg"
 
 const Home = () => {
     return (
@@ -9,7 +10,7 @@ const Home = () => {
             {/* Hero Section */}
             <div className="text-center">
                 <motion.img
-                    src="profile2.png"
+                    src={profile}
                     alt="Profile.jpeg"
                     className="w-36 h-36 md:w-48 md:h-48 rounded-full border-4 border-[#64FFDA] mx-auto shadow-lg"
                     initial={{ opacity: 0, scale: 0.8 }}

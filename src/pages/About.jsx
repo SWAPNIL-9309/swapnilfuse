@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "../assets/profile.jpeg"
 const About = () => {
     return (
         <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-[#0A192F] text-[#CCD6F6] px-6 md:px-12 lg:px-20 py-10">
             {/* Image Section */}
             <div className="w-full lg:w-1/3 flex justify-center mb-6 lg:mb-0">
                 <img
-                    src='./profile.jpeg'// Replace with your image
+                    src={logo}// Replace with your image
                     alt="Your Name"
                     className="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-lg object-cover"
                 />

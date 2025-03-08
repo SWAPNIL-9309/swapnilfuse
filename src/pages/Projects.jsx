@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "../assets/LOGO.jpeg"
 const Projects = () => {
     return (
         <div className="min-h-screen bg-[#0A192F] text-[#CCD6F6] px-6 md:px-12 lg:px-20 py-16">
@@ -12,7 +12,7 @@ const Projects = () => {
                 {/* Project 1: Daily Dose of Engineering */}
                 <div className="relative bg-[#112240]/80 backdrop-blur-md p-8 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
                     <img
-                        src='./LOGO.jpeg' // Replace with your logo
+                        src={image}// Replace with your logo
                         alt="Daily Dose of Engineering"
                         className="w-24 h-24 mx-auto mb-4"
                     />
