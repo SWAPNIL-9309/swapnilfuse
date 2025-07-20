@@ -26,8 +26,8 @@ const Projects = () => {
                     </p>
                     <div className="flex justify-center mt-6">
                         <a
-                            href="swapnil-9309.github.io/dd-engineering/" // Replace with actual link
-                            target="_blank"
+                            href="https://swapnil-9309.github.io/dd-engineering/" // Replace with actual link
+                            target="_blank"  
                             rel="noopener noreferrer"
                             className="bg-[#64FFDA] text-[#0A192F] px-6 py-2 rounded-md font-semibold hover:bg-[#52e6c2] transition-all"
                         >
