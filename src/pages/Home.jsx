@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import profile from "../assets/profile2.jpeg"
+import profile from "../assets/luffy.jpg"
 
 const Home = () => {
     return (

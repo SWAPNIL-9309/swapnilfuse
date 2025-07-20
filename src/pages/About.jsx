@@ -24,7 +24,7 @@ const About = () => {
 
                 <h3 className="text-2xl font-semibold mt-6 text-[#64FFDA]">Education</h3>
                 <p className="text-[#8892B0] text-sm sm:text-base md:text-lg leading-relaxed">
-                    I am pursuing pursued my education in Information Technology from International Institute of Information Technology , where I developed a solid understanding of
+                    I am pursuing  my education in Information Technology from International Institute of Information Technology , where I am developing a solid understanding of
                     <span className="text-[#64FFDA]"> Data Structures, Algorithms, and Software Development</span>.
                     My academic background helps me build efficient, scalable, and user-friendly web applications.
                 </p>
